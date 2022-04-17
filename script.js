@@ -116,7 +116,7 @@ function handleProjectiles() {
         enemies[j].health -= projectiles[i].power
         if (projectiles[i].knockBack) {
           // console.log(enemies[j].movement)
-          enemies[j].movement = -20
+          enemies[j].movement = -30
         }
         if (projectiles[i].slow && enemies[j].movement > 0) {
           // console.log(enemies[j].movement)
@@ -446,7 +446,7 @@ function chooseDefender() {
     card3Stroke = 'black'
     card4Stroke = 'gold'
     card5Stroke = 'black'
-    defenderCost = 300
+    defenderCost = 200
   } else if (chosenDefender === 5) {
     card1Stroke = 'black'
     card2Stroke = 'black'
