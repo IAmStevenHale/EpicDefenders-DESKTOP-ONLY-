@@ -1,0 +1,16 @@
+body {
+  background: black;
+}
+
+#canvas1 {
+  background: url(Assets/Map/ef48d217dc8e23a49277afc4dcf403c3.png);
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 900px;
+  height: 600px;
+  font-family: 'Orbitron', sans-serif;
+}
